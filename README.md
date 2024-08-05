@@ -38,7 +38,7 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](L
 
 ## Contato
 
-Se tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato pelo e-mail: `seuemail@dominio.com`.
+Se tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato pelo e-mail: `dev.vergani@gmail.com`.
 
 ---
 
