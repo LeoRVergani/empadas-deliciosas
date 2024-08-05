@@ -12,6 +12,7 @@ nav ul {
     flex-wrap: wrap;
     justify-content:center;
     height: 60px;
+    margin-bottom: 5px;
     text-align: center;
     align-content: center;
     gap: 25px;
@@ -29,7 +30,7 @@ div {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding: 20px;
+    padding-top: 20px;
     height: 200px;
     min-width: 100px;
     max-width: 450px;
@@ -37,8 +38,8 @@ div {
 
 h2 {
     color: orangered;
-    margin: 10px;
-    
+    margin-left: 10px !important;
+    width: 100%;
 }
 
 div p {
@@ -47,16 +48,21 @@ div p {
 }
 
 main {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
-    height: 190vw;
-    min-width: 100px;
-    max-width: 550px;
-    min-height: 550px;
-    box-shadow: 1px 1px 12px -1px rgba(0,0,0,0.75);
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0px 5px 23px -7px rgba(0,0,0,0.75);
     border-radius: 5px;
+    max-width: 650px;
+    min-width: 325px;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.main-cardapio {
+    height: 1350px;
 }
 
 .redondo {
@@ -67,11 +73,6 @@ main {
 }
 
 .card {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    gap: 20px;
     color: black;
     width: 100%;
     list-style: square;
@@ -94,8 +95,6 @@ figcaption {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 30px;
-    margin-left: auto;
-    margin-right: auto;
     max-height: 150px;
     gap: 50px;
     margin-bottom: 50px;
@@ -116,10 +115,95 @@ figcaption {
 }
 
 .figuras {
-    height: 320px;
+    margin-top: 25px;
+    height: 310px;
 }
 
 .maps {
     height: 450px;
     margin-top: 20px;
+}
+
+span {
+    width: 100%;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.empadas {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-empada {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+.calorias {
+    border: 1px solid;
+    width: 550px;
+    height: 450px;
+}
+
+h3 {
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+p {
+    width: 100%;
+    text-align: left;
+}
+
+th { 
+    background-color: chocolate !important ;
+    color: azure !important;
+}
+
+table {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+tr {
+    height: 25px;
+    align-content: center;
+}
+
+td {
+    width: 100vw;
+    align-content: center;
+}
+
+@media (max-width: 650px) {
+    main {
+    width: 90%;
+    }
+    div {
+        height: 200px;
+    }
+    .redondo {
+        width: 100px;
+        
+    }
+
+    .figuras {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .maps {
+        height: auto;
+        margin-top: 40px;
+    }
 }
