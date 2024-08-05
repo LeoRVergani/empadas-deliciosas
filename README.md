@@ -7,14 +7,12 @@ Este repositório contém o projeto de um site de empadas desenvolvido como part
 - Criar um site para apresentar diferentes tipos de empadas oferecidas por uma fictícia loja de empadas.
 - Aplicar boas práticas de desenvolvimento web utilizando HTML para a estrutura do site.
 - Estilizar o site utilizando CSS, garantindo uma interface atraente e responsiva.
-- Utilizar o framework Bootstrap para facilitar a criação de layouts responsivos e componentes modernos.
 
 ## Tecnologias Utilizadas
 
 - **HTML5:** Estruturação do conteúdo do site.
 - **CSS3:** Estilização do site, incluindo cores, tipografia e layout.
-- **Bootstrap:** Framework CSS para facilitar o design responsivo e a utilização de componentes prontos.
-
+- 
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
