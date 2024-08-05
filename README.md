@@ -12,7 +12,7 @@ Este repositório contém o projeto de um site de empadas desenvolvido como part
 
 - **HTML5:** Estruturação do conteúdo do site.
 - **CSS3:** Estilização do site, incluindo cores, tipografia e layout.
-- 
+  
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
